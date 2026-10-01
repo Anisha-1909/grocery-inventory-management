@@ -31,13 +31,13 @@ Managing product details and tracking stock manually can be time-consuming and m
 ### Workflow
 
 Homepage
-   ↓
+   |
 Login
-   ↓
+   |
 Dashboard
-   ↓
+   |
 Manage Products
-   ↓
+   |
 Monitor Stock Status
  
 
