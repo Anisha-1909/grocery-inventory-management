@@ -1,4 +1,4 @@
-* {
+ * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -6,9 +6,35 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right,  #556b2f 5%, #f0fdf4 100%);
+  background-image:
+    linear-gradient(rgba(20, 28, 10, 0.55), rgba(20, 28, 10, 0.55)),
+    url("images/background.jpg");
   padding: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: 1100px;
+  margin: 0 auto;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: cambria;
+  font-weight: 550;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+}
+
 h1 {
   margin-bottom: 10px;
   font-family: cambria;
@@ -39,11 +65,13 @@ h1 {
   font-size: 15px;
   font-family: cambria;
   border: 1px solid #ccc;
+  background: #f7f5ec;
   min-width: 180px;
 }
 
 .form button {
   width: 100px;
+  padding: 10px 14px;
 }
 
 .add-btn {
@@ -57,12 +85,11 @@ h1 {
 }
 
 .add-btn:hover {
-  background: rgb(8, 179, 8);
+  background: rgb(8, 150, 8);
 }
 
 .clear-btn {
   background: rgb(6, 46, 165);
-
   color: white;
   border: none;
   border-radius: 10px;
@@ -83,7 +110,7 @@ h1 {
   font-size: 14px;
 }
 #sort {
-  min-width: 20%;
+  min-width: 10%;
   margin-top: 20px;
   padding: 12px;
   border: 1px solid #ccc;
@@ -118,9 +145,22 @@ h1 {
   margin-top: 8px;
   font-size: 30px;
   font-weight: 600;
-  color: #736ed4;
+  color: #7872e7;
+}
+.total-card .icon,
+.total-card span {
+  color: #556b2f;
 }
 
+.low-card .icon,
+.low-card span {
+  color: #d68a00;
+}
+
+.stock-card .icon,
+.stock-card span {
+  color: #1b8a3a;
+}
 .edit-btn {
   background: transparent;
   border: none;
@@ -152,8 +192,8 @@ h1 {
 table {
   width: 100%;
   margin-top: 20px;
-  background:#fff;
-  color:black;
+  background: #fff;
+  color: black;
   font-family: serif;
   border-collapse: collapse;
   border-radius: 15px;
@@ -163,12 +203,12 @@ table {
 
 th,
 td {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   padding: 15px;
   text-align: center;
 }
 th {
-  background: #fff;
+  background: #f7f5ec;
   color: black;
   padding: 15px;
 }
@@ -200,3 +240,4 @@ td button {
     gap: 10px;
   }
 }
+
