@@ -3,14 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>Retail Inventory Management</title>
+<title>Retail Inventory Management</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
     <h1> <span class="material-symbols-outlined">
 storefront
 </span>Retail Inventory Management</h1>
+<a class ="logout" href="login.html">Logout</a>
+</header>
       
     <div class="form">
       <input type="text" id="name" placeholder="Product Name" />
@@ -27,8 +30,8 @@ storefront
       <option value="others">others</option>
     </select>
       <button class="add-btn" onclick="addProduct()">Add Product</button>
-      <button class="clear-btn" onclick="clearAll()">
-        Clear All
+      <button class="clear-btn" onclick="clear()">
+        Clear
       </button>
       <input
         type="text"
