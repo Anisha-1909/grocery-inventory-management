@@ -48,6 +48,12 @@ input {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
+  font-size: 15px;
+  border: 1px solid #d9dccf;
+  border-radius: 10px;
+  background: #f7f5ec;
+  color: #25301a;
+  outline: 2px solid #556b2f;
 }
 
 button {
@@ -57,14 +63,14 @@ button {
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 8px;
   color: white;
-  background: royalblue;
+  background:#556b2f;
   margin-top: 20px;
 }
 
 button:hover {
-  background: rgb(2, 2, 162);
+  background: #43561f;
 }
 #error {
   color: red;
