@@ -3,8 +3,7 @@
 
 ### 
 Inventory management application designed for supermarkets, grocery stores. It helps store owners, staff to manage grocery products and monitor stock.
-. Frontend-only web application:
-  The project is built using HTML, CSS, and JavaScript. LocalStorage is used to store inventory data on
+  - Frontend-only web application: The project is built using HTML, CSS, and JavaScript. LocalStorage is used to store inventory data on
 
 ### Problem Statement:
 Managing product details and tracking stock manually can be time-consuming and make it difficult to identify low-stock items. Retail stores need a simple and organized way to maintain inventory records and monitor stock availability
@@ -17,7 +16,7 @@ Managing product details and tracking stock manually can be time-consuming and m
 - Category-wise organization
 - simple dashboard UI
 
-### [view Login Page](Images/login.png) | [view Dashboard Page](Images/dashboard.png)
+## [view Login Page](Images/login.png) | [view Dashboard Page](Images/dashboard.png)
 
 ###
 | Technologies Used | Purpose|
@@ -27,20 +26,19 @@ Managing product details and tracking stock manually can be time-consuming and m
 |* JavaScript| CRUD operations,DOM manipulation|
 |* Google Material Symbols| Icons for the user interface|
 
-### Workflow 
+ 
+
+### Workflow
+
 Homepage
-↓
+   ↓
 Login
-↓
+   ↓
 Dashboard
-↓
-Manage Products 
-↓ 
-Add / Edit / Delete / Search / Filter 
-↓ 
+   ↓
+Manage Products
+   ↓
 Monitor Stock Status
-
-
  
 
 
