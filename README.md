@@ -15,7 +15,7 @@ Managing product details and tracking stock manually can be time-consuming and m
 - Category-wise organization
 - simple dashboard UI
 
-#### [view Login Page](Images/login.png) | [view Dashboard Page](Images/dashboard.png)
+### [view Login Page](Images/login.png) | [view Dashboard Page](Images/dashboard.png)
 
 ###
 | Technologies Used | Purpose|
