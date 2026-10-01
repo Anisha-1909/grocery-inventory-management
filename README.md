@@ -2,7 +2,9 @@
 ## Retail Inventory Management 
 
 ### 
-A frontend-based retail inventory management system designed for supermarkets, grocery stores. The application features a simple login interface that allows users to access the inventory dashboard where users can manage products, monitor stock availability, and identify low-stock items. The system uses the browser's Local Storage to store inventory data.
+Inventory management application designed for supermarkets, grocery stores. It helps store owners, staff to manage grocery products and monitor stock.
+. Frontend-only web application:
+  The project is built using HTML, CSS, and JavaScript. LocalStorage is used to store inventory data on
 
 ### Problem Statement:
 Managing product details and tracking stock manually can be time-consuming and make it difficult to identify low-stock items. Retail stores need a simple and organized way to maintain inventory records and monitor stock availability
@@ -24,6 +26,22 @@ Managing product details and tracking stock manually can be time-consuming and m
 |* CSS| Styling, responsive design, and user interface|
 |* JavaScript| CRUD operations,DOM manipulation|
 |* Google Material Symbols| Icons for the user interface|
+
+### Workflow 
+Homepage
+↓
+Login
+↓
+Dashboard
+↓
+Manage Products 
+↓ 
+Add / Edit / Delete / Search / Filter 
+↓ 
+Monitor Stock Status
+
+
+ 
 
 
 
