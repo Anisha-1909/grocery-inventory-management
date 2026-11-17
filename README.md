@@ -1,9 +1,9 @@
 
-## Retail Inventory Management 
+## Grocery Inventory Management 
 
 ### 
-Inventory management application designed for supermarkets, grocery stores. It helps store owners, staff to manage grocery products and monitor stock.
-  - Frontend-only web application: The project is built using HTML, CSS, and JavaScript. LocalStorage is used to store inventory data in browser 
+An inventory management application designed for supermarkets, grocery stores. It helps store owners, staff to manage grocery products and monitor stock.
+The project is built using HTML, CSS, and JavaScript. LocalStorage is used to store inventory data in browser 
 
 
 ### Features
