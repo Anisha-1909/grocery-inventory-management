@@ -27,7 +27,7 @@ The project is built using HTML, CSS, and JavaScript. LocalStorage is used to st
  
 
 ### Workflow
- flowchart TD
+flowchart TD
     A[Homepage] --> B[Login]
     B --> C[Dashboard]
     C --> D[Manage Products]
@@ -38,6 +38,7 @@ The project is built using HTML, CSS, and JavaScript. LocalStorage is used to st
     style C fill:#eeeeee,stroke:#888888,color:#000000
     style D fill:#eeeeee,stroke:#888888,color:#000000
     style E fill:#eeeeee,stroke:#888888,color:#000000
+ 
  
 
 
