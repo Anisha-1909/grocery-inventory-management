@@ -28,12 +28,12 @@ The project is built using HTML, CSS, and JavaScript. LocalStorage is used to st
 
 ### Workflow
 Homepage
-   ↓
+   ->
 Login
-   ↓
+   ->
 Dashboard
-   ↓
+   ->
 Manage Products
-   ↓
+   ->
 Monitor Stock Status
  
