@@ -28,7 +28,6 @@ The project is built using HTML, CSS, and JavaScript. LocalStorage is used to st
 
 ### Workflow
 
-```mermaid
 flowchart TD
     A[Homepage] --> B[Login]
     B --> C[Dashboard]
