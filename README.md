@@ -27,24 +27,17 @@ The project is built using HTML, CSS, and JavaScript. LocalStorage is used to st
  
 
 ### Workflow
-
-```mermaid
-flowchart TD
+ flowchart TD
     A[Homepage] --> B[Login]
     B --> C[Dashboard]
     C --> D[Manage Products]
     D --> E[Monitor Stock Status]
-```
 
-Homepage
-   ↓
-Login
-   ↓
-Dashboard
-   ↓
-Manage Products
-   ↓
-Monitor Stock Status
+    style A fill:#eeeeee,stroke:#888888,color:#000000
+    style B fill:#eeeeee,stroke:#888888,color:#000000
+    style C fill:#eeeeee,stroke:#888888,color:#000000
+    style D fill:#eeeeee,stroke:#888888,color:#000000
+    style E fill:#eeeeee,stroke:#888888,color:#000000
  
 
 
